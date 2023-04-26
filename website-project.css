@@ -1,0 +1,25 @@
+.top_border {
+    background-color: rgb(15, 170, 232);
+    height: 7px;
+    width: 100%;
+}
+
+.opening_img {
+    height: 300px;
+    background-color: blue;
+}
+
+.foot {
+    background-color: lightgrey;
+    height: 10%;
+    width: 100%;
+}
+
+.edit_img {
+    display: block;
+    margin-left: left-aligned;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+    padding-top:10px ;
+}
