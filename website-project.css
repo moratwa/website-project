@@ -1,19 +1,40 @@
+/* style & structuteconsistency*/
+
 .top_border {
     background-color: rgb(15, 170, 232);
     height: 7px;
     width: 100%;
 }
 
-.opening_img {
-    height: 300px;
-    background-color: blue;
-}
+.container{
+    height: 80px;
+    align-content: center;
+    
 
+}
 .foot {
     background-color: lightgrey;
-    height: 10%;
+    height: 30px;
     width: 100%;
+    text-align: center;
 }
+
+
+
+
+
+/* text */
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* images and other content */
 
 .edit_img {
     display: block;
@@ -22,4 +43,13 @@
     width: 10%;
     height: 10%;
     padding-top:10px ;
+}
+
+.opening_img {
+    height: 300%;
+    background-color: blue;
+    width: 100%;
+    justify-content: baseline;
+    padding-left: auto;
+    padding-right: auto;
 }
